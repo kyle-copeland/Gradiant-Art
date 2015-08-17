@@ -1,9 +1,14 @@
 html
   head
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Indie+Flower')
     script(src='/js/gradient.js')
+    script(src='/js/colors.js')
+    script(src='/js/download.js')
     link(rel='stylesheet', href='css/style.css')
     title Gradiant Art
   body
     canvas(id='gradient')
+    button(id='download') download
     script Gradient.init();
+    script Download.init();
    
