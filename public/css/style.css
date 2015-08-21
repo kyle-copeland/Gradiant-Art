@@ -3,24 +3,28 @@ html, body { margin: 0; padding: 0;}
 	position:absolute;
 	height: 100%;
 	width: 100%;
+	display:none;
 }
-
-button {
+#gradient-img {
+	position:absolute;
+	height: 100%;
+	width: 100%;
+}
+a {
 	font-family: 'Indie Flower', cursive;
 	font-size: 20px;
 	position: fixed;
 	right: 20px;
 	bottom: 20px;
-	background-color: Transparent;
-	background-repeat: no-repeat;
-	border: none;
-	outline:none;
 	z-index: 2;
+	text-decoration: none;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.25s ease;
 }
 
-button:hover {
+a:hover {
+	cursor: pointer;
 	position: fixed;
 	bottom: 23px;
 }
+
