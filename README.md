@@ -1,8 +1,7 @@
 # Gradient-Art
-Randomly Generate Gradient art that can be downloaded
+Generate gradient art that can be used for desktop or phone backgrounds,
+webpages, and more.
 # To Dos
 --------------------------------------
-- Randomize Angles
-- Limit colors to pastels
-- Add functionality to download image
 - Add epic music!!!!
+- Decide
